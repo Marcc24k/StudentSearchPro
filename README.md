@@ -18,7 +18,7 @@ Bugs to fix
 
 -Maybe instead of prompt search make it just a search bar or both
 
--Make Error alert code for when program cannot find user--for some reaosn I cannot get this to work. All names return undefined except trish...How come this is happening?
+-Make Error alert code for when program cannot find user--for some reason I cannot get this to work. All names return undefined except trish...How come this is happening?
 
--Fix my string concat within badName. 
+-Need to fix string concat within badName. 
 ***/
