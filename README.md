@@ -1,7 +1,7 @@
 # StudentSearchPro
-This program lets your search for students.
+This program lets you search for students within a database.
 
-This is course work that I am building on from a treehouse project.
+This is course work that I am building on.
 
 
 
