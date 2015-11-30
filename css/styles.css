@@ -1,0 +1,281 @@
+
+
+/*General*/
+body {
+  border: 2px solid grey;
+  background: #330d00;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #8d9aa5;
+}
+
+a {
+  color: #3f8aBf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3079ab;
+}
+
+a:visited {
+  color: #5a6772;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #ac3c24;
+}
+
+
+/*Name animation***/
+.names:hover {
+width: 100px;
+height: 100px;
+color:;
+border: 2px solid transparent;
+border-radius:45px;
+position: relative;
+    -webkit-animation-name: marc; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-transition: width 6s, height 6s;
+    transition: width 6s, height 6s;
+    animation-name: marc;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    }
+.names:hover{
+  width:200px;
+  height:200px;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes marc {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:0px;}
+    50%  {background-color: green;left:200px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes marc {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color: green; left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+.jody:hover{
+width: 80px;
+color:;
+border: 2px solid transparent;
+border-radius:45px;
+position: relative;
+    -webkit-animation-name: jody; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: jody;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+    
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes jody {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#A60059
+;left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes jody {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#A60059
+; left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+.jord:hover{
+width: 80px;
+color:;
+border: 2px solid transparent;
+border-radius:45px;
+position: relative;
+    -webkit-animation-name: jord; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: jord;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+    
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes jord {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#FF2900;left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes jord {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#FF2900; left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+.jon:hover{
+width: 80px;
+color:;
+border: 2px solid transparent;
+border-radius:45px;
+position: relative;
+    -webkit-animation-name: jon; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: jon;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+  
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes jon {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color: #A60059;left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes jon {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#A8D957;left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+.trish:hover{
+width: 80px;
+color:;
+border: 2px solid transparent;
+border-radius:45px;
+position: relative;
+    -webkit-animation-name: trish; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: trish;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+  
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes trish {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#0594C2;left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes trish {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {background-color:#0594C2; left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 60px 0 40px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    padding: 30px 0 10px 0;
+}
+
+#home h2 {
+  margin: -40px 0 0;
+}
+
+h3 {
+  font-size: .9em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h3 em {
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 0 10px 5px;
+  padding: 0;
+  color: #8d9aa5;
+}
+
+ol {
+  margin: 0 0 20px 32px;
+  padding: 0;
+}
+
+#home ol {
+  list-style-type: none;
+  margin: 0 0 40px 0;
+}
+
+li {
+  padding: 8px 0;
+  display: list-item;
+  width: 100%;
+  margin: 0;
+  counter-increment: step-counter;
+}
+
+#home li::before {
+    content: counter(step-counter);
+    font-size: .65em;
+    color: #fff;
+    font-weight: 300;
+    padding: 2px 6px;
+    margin:  0 18px 0 0;
+    border-radius: 3px;
+    background:#8d9aa5;
+    line-height: 1em;
+}
+
+.lens {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #8d9aa5;
+  border-radius: 5px;
+  position: absolute;
+  margin: 5px 0 0 -19px;
+}
+
+#color div {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+span {
+  color: red;
+}
