@@ -1,9 +1,9 @@
 var students = [ 
   { 
-   name: 'Dave',
+   name: 'Marc',
     track: 'Front End Development',
     achievements: 158,
-    points: 14730
+    points: '2434 '
   },
   {
     name: 'Jody',

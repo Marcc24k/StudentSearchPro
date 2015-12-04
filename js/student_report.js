@@ -1,7 +1,7 @@
 var message = '';
 var student;
 var search;
-var badName = 'I\'m sorry  ' + search + ' does not exist';
+var badName = 'I\'m sorry ' +  search + ' was never born. are you ok?';
 
 //Message print
 function print(message) {
@@ -21,34 +21,36 @@ function getStudentReport( student ) {
 //Run prompt , compare, loop and print message. 
 while (true) {
   search = prompt('Search student records: type a name or type quit to end');
-  if ( search.toLowerCase() === null || search.toLowerCase() === 'quit'){
+  if ( search === null || search.toLowerCase() === 'quit'){
     break;
   }
   for (var i = 0; i < students.length; i += 1) {
   student = students[i];
-  
-  if ( student.name === search){
+
+//The statement below checks to see if the name entered matchs any of the students names.
+  if ( student.name.toLowerCase() !== search ) {
+      message = getStudentReport( student );
+      print(badName);
+
+      }
+  // The .toLowerCase() statement enables us to input lowerCase when searching students.
+  if ( student.name.toLowerCase() === search){
       message = getStudentReport( student );
       print(message);
-}else{
-    print(badName);
-  
+    break;
+    }
+    if ( student.name.toLowerCase() === search ){
+      message = getStudentReport( student );
+      print(message)
 
-
-
-       
     }
   }
 }
 
 
+/***Bugs to fix 
 
-/***
-Bugs to fix
-
--Make prompt input take lower and upper case values
-
--Make user name transition gradually when hovered instead of drastic switch---I also want user descriptions in the box/avatar
+-Fix string issue with badName-Keeps returning undefined. 
 
 -write code that is able to tell the difference between two users with the same name
 
@@ -56,5 +58,22 @@ Bugs to fix
 
 -Maybe instead of prompt search make it just a search bar or both
 
--Make Error alert code for when program cannot find user--for some reaosn I cannot get this to work. All names return undefined except trish...How come?
+
+
+
+=======================================================================================
+
+// Bugs that have been fixed
+
+-Hide user decription until mouse hover. Then transition along with bubble then fade away once 
+user moves or times out.
+
+-Make user name transition gradually when hovered instead of drastic switch---I also want user descriptions in the box/avatar
+
+-Marc is unsearchable. Fix this issue
+
+-Write prompt input take lower and upper case values
+
+-Write Error alert for when program cannot find user
+
 ***/
