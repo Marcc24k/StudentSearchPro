@@ -65,14 +65,14 @@ while (true) {
 
 // Bugs that have been fixed
 
--Hide user decription until mouse hover. Then transition along with bubble then fade away once 
+-Hide user description until mouse hover. Then transition along with bubble then fade away once 
 user moves or times out.
 
--Make user name transition gradually when hovered instead of drastic switch---I also want user descriptions in the box/avatar
+-Make user name transition slowly when hovered instead of drastic switch---I also want user descriptions in the box
 
 -Marc is unsearchable. Fix this issue
 
--Write prompt input take lower and upper case values
+-Write prompt input takes lower/upper case values
 
 -Write Error alert for when program cannot find user
 
